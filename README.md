@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Un Mot … des Films
+### Utilisation de React.Js et des différents hooks , utilisation de Typescript pour le typage et de Tailwind pour le CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description: 
 
-Currently, two official plugins are available:
+1- Rechercher des films en écrivant un mot dans la barre de recherche <br/>
+2- Lire en détail la description d’un film <br/>
+3- Mettre en favoris les films que j’aime <br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités:
 
-## Expanding the ESLint configuration
+0- Mise en place d’une conception en Atomic Design <br/>
+1- Manipulation des données d’une API <br/>
+2- Réalisation d’un input de recherche sur l’API avec Axios <br/>
+3- Affichage des données sur la page home <br/>
+4- Affichage des données par id d’un film, requête get sur l’API <br/>
+5- Création d’une page favoris avec le localStorage <br/>
+6- Mise en mémoire des données avec React-Router-Dom <br/>
+7- Utilisation de librairies pour le design <br/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/d3851835-5a83-4e85-adb1-826866bccec7)
 
-- Configure the top-level `parserOptions` property like this:
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/6dbd86d7-f04e-4932-a781-181509424840)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/66a4884c-0479-410a-b08f-73ce0de20556)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/23ee62b9-3b1a-487d-8f32-e3c6890dc3d7)
+
+
+
+
+
+
