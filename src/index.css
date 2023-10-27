@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Handlee&family=Poppins:wght@300;400;500;600;700;800&family=Stardos+Stencil:wght@400;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  @apply bg-[#ffffffed] font-poppins  text-gray-900 px-10 pt-10 w-full h-screen font-normal leading-normal
+  /* bg-[#e6d30dd7] */
+}
+
