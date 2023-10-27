@@ -20,5 +20,14 @@
 
 ![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/d3851835-5a83-4e85-adb1-826866bccec7)
 
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/6dbd86d7-f04e-4932-a781-181509424840)
+
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/66a4884c-0479-410a-b08f-73ce0de20556)
+
+![image](https://github.com/Elodieguay/API_Manipulation/assets/123971120/23ee62b9-3b1a-487d-8f32-e3c6890dc3d7)
+
+
+
+
 
 
