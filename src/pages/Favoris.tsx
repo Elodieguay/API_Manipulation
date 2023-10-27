@@ -8,9 +8,9 @@ const Favoris = () => {
   const {favorite, setFavorite} = useContext<FavoriteContextType>(favoriteContext)
 
   const removeFilm = (index: number) => {
-    let newCart = [...favorite]; // Clonez le tableau de favoris
+    let newCart = [...favorite]; // Cloner le tableau de favoris
     newCart.splice(index, 1);
-    setFavorite(newCart); // Mettez à jour le contexte avec le nouveau tableau de favoris
+    setFavorite(newCart); // Mettre à jour le contexte avec le nouveau tableau de favoris
   }
   
   return (

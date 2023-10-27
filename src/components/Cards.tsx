@@ -18,13 +18,11 @@ export const Cards : React.FC<{datas : moviesData}>= ({datas}) => {
     
     setFavorite((a ) => [...a, datas]) 
   
-    console.log("film ajouté");
+    // console.log("film ajouté");
     
   }
 
-  // const routeMovie = () =>{
-  //   Navigate(`/film/${datas.imdbID}`)
-  // }
+
 
   return ( 
   

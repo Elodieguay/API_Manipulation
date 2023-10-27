@@ -36,7 +36,6 @@ const Header = () => {
   useEffect(() => {
 
     const handleResize = () => {
-      // Adjust the image dimensions based on screen size
       if (window.innerWidth < 768) {
         setImageSize({ width: "100%", height: "25vh" });
       } else if (window.innerWidth < 1000) {

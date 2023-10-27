@@ -21,7 +21,7 @@ export const AxiosApi = async ({searchMovie}:{searchMovie:string}) => {
     
     try{
     const response : AxiosResponse <{ Search: moviesData[] }> = await axios.get(`https://www.omdbapi.com/?apikey=39988162&type=movie&s=${searchMovie}`)
-    console.log(response);
+    // console.log(response);
 
     return response.data.Search
         

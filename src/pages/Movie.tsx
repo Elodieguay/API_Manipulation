@@ -5,7 +5,7 @@ import { FetchById } from "../api/FetchById";
 
 const Movie = () => {
   const {id}  = useParams(); 
-  console.log({id});
+  // console.log({id});
   
   const [movie, setMovie] = useState<moviesData | null>(null);
   const [error, setError] = useState<string | null>(null)
@@ -15,7 +15,7 @@ const Movie = () => {
     const movieDetail =  async(id:string) => {
       try {
         const data = await FetchById(id );
-        console.log(data);
+        // console.log(data);
         
         setMovie(data)
         setError(null)

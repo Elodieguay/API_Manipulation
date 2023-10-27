@@ -32,11 +32,11 @@ function App() {
     // stockage dans le local storage à chaque fois que l'on modifie le panier
     if(favorite.length > 0){
       localStorage.setItem('cartItems', JSON.stringify(favorite))
-      console.log("favoris est dans la page");
+      // console.log("favoris est dans la page");
     
     } else {
       localStorage.removeItem('cartItems')
-      console.log(('favoris est vide'));
+      // console.log(('favoris est vide'));
       
     }
   }, [favorite])
